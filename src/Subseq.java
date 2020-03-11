@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 
 public class Subseq {
+
     public static ArrayList<Integer> lengthOfLIS(int[] nums) {
         ArrayList<Integer> list = new ArrayList<>();
         if(nums==null || nums.length==0)
